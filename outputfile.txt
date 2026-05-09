@@ -1,0 +1,38 @@
+{
+  "deploymentLocation": {
+    "type": "String",
+    "value": "westeurope"
+  },
+  "nsgResourceId": {
+    "type": "String",
+    "value": "/subscriptions/cc15b4c3-bbf4-49ca-8289-af3840c85723/resourceGroups/Michael-group/providers/Microsoft.Network/networkSecurityGroups/Mike-VM-nsg"
+  },
+  "privateIPAddress": {
+    "type": "String",
+    "value": "10.1.0.4"
+  },
+  "publicIPAddress": {
+    "type": "String",
+    "value": "20.86.51.155"
+  },
+  "publicIPResourceId": {
+    "type": "String",
+    "value": "/subscriptions/cc15b4c3-bbf4-49ca-8289-af3840c85723/resourceGroups/Michael-group/providers/Microsoft.Network/publicIPAddresses/Mike-VM-ip"
+  },
+  "sshCommand": {
+    "type": "String",
+    "value": "ssh nzemikez@20.86.51.155"
+  },
+  "vmName": {
+    "type": "String",
+    "value": "Mike-VM"
+  },
+  "vmResourceId": {
+    "type": "String",
+    "value": "/subscriptions/cc15b4c3-bbf4-49ca-8289-af3840c85723/resourceGroups/Michael-group/providers/Microsoft.Compute/virtualMachines/Mike-VM"
+  },
+  "vnetResourceId": {
+    "type": "String",
+    "value": "/subscriptions/cc15b4c3-bbf4-49ca-8289-af3840c85723/resourceGroups/Michael-group/providers/Microsoft.Network/virtualNetworks/Mike-VM-vnet"
+  }
+}
