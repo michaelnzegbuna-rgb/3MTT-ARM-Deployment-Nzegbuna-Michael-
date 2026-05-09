@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_Mike_VM_name": {
+            "value": "Mike-VM"
+        },
+        "publicIPAddresses_Mike_VM_ip_name": {
+            "value": "Mike-VM-ip"
+        },
+        "virtualNetworks_Mike_VM_vnet_name": {
+            "value": "Mike-VM-vnet"
+        },
+        "networkInterfaces_mike_vm591_z1_name": {
+            "value": "mike-vm591_z1"
+        },
+        "networkSecurityGroups_Mike_VM_nsg_name": {
+            "value": "Mike-VM-nsg"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "vmSize": {
+            "value": "Standard_D2als_v7"
+        },
+        "adminUsername": {
+            "value": "nzemikez"
+        },
+        "adminPassword": {
+            "value": "Cook2310ies"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.1.0.0/16"
+        },
+        "subnetAddressPrefix": {
+            "value": "10.1.0.0/24"
+        }
+    }
+}
